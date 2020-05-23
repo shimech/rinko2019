@@ -23,7 +23,7 @@ class Visualizer:
             plt.title(title)
         print("回帰: {} を表示しました。".format(title))
         plt.show()
-    
+
     @staticmethod
     def visualize_gaussian_process(X, Y, Y_pred, Y_std, title=None):
         plt.figure()
